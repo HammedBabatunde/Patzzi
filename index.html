@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/simple-lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Eco-Net Homepage</title>
+</head>
+
+<body>
+  <!--Showcase Area -->
+  <div id="showcase">
+    <header>
+      <div class="wrapper">
+        <nav class="main-nav">
+          <a href="#" class="logo">PATZZI</a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Team</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="section-main container">
+      <h1>Clean Rivers, Clean Water</h1>
+      <h2></h2>
+      <p class="lead hide-on-small">
+        Safe and readily available water is important for public health, whether it is used for drinking, domestic use, food production or recreational purposes. Improved water supply and sanitation, and better management of water resources, can boost countries’ economic growth and can contribute greatly to poverty reduction.
+      </p>
+    </div>
+
+  </div>
+     
+     <!--Solution Section-->
+     <section id="solution" class="section">
+       <div class="container">
+         <h2 class="section-head">
+          <i class="fas fa-bullhorn"></i> So whats is Our solution?
+         </h2>
+         <h3></h3>
+         <p class="lead">Patzzi is a project that aims to reduce the amount of trash on bodies of water.This net would be made of environmental friendly materials, and it would come with sensors that would notify local authorities when the net is full. In addition to notifying when it needs maintenance, it would also activate a light near the net that would signal people nearby that the net needs maintenance. This would significantly decrease the amount of trash in oceans, rivers, and lakes. Helping save thousands of animals and plants. </p>
+       </div>
+       <img src="./img/Solution.jpg" alt="Graphical Representation of Eco-Clean Net Solution">
+     </section>
+    
+    <!--Prototype-->
+    <div class="container">
+      <h1 class="heading">Prototype</h1>
+    </div>
+    <div class="gallery">
+      <a href="./img/Proto2.jpg" class="big"><img src="./img/Proto2.jpg" alt=""></a>
+      <a href="./img/Proto1.jpg" class="big"><img src="./img/Proto1.jpg" alt=""></a>
+      <a href="./img/Proto5.jpg" class="big"><img src="./img/Proto5.jpg" alt=""></a>
+      <a href="./img/Proto3.jpg" class="big"><img src="./img/Proto3.jpg" alt=""></a>
+      <a href="./img/Proto4.jpg" class="big"><img src="./img/Proto4.jpg" alt=""></a>
+      <a href="./img/Proto.jpeg" class="big"><img src="./img/Proto.jpeg" alt=""></a>
+    </div>
+    
+     <!--Footer-->
+     <footer class="section-footer py-4 bg-primary">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">Patzzi</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p class="newsletter-info">
+            Please Subscribe to Our Newsletter.
+          </p>
+          <form class='mt-1' name='email-form' method='POST'><input type='hidden' name='form-name' value='email-form' />
+            <div class="email-form">
+              <span class="form-control-wrap"
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail"/></span
+              ><button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.js"></script>
+    <script>
+      $(function() {
+        const $gallery = $('.gallery a').simpleLightbox();
+      });
+    </script>
+</body>
+</html>
